@@ -19,18 +19,3 @@ Array.prototype.twoSum = function () {
   }
   return result;
 };
-
-
-Array.prototype.transpose = function () {
-  let result = [];
-  for (var i = 0; i < this.length; i++) {
-    for (var j = 0; j < this[i].length; j++) {
-      if (i === 0) {
-        result.push([this[i][j]]);
-      } else {
-        result[j].push(this[i][j]);
-      }
-    }
-  }
-  return result;
-};
