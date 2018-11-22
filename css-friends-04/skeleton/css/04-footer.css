@@ -1,0 +1,46 @@
+/* PHASE 4: Footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer p {
+  font-size: 10px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+}
+
+footer li {
+  /* display: flex;
+
+  justify-content: space-between; */
+  margin: 0px 5px 0px 5px;
+}
+
+.content-footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  background: #fff;
+  width: 900px;
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+
+.content-sidebar-footer {
+  width: 200px;
+  min-height: 10px;
+  padding: 20px;
+  padding-right: 19px;
+  border-right: 1px solid #ccc;
+}
+
+.content-main-footer {
+  width: 620px;
+  min-height: 10px;
+  padding: 20px;
+}
